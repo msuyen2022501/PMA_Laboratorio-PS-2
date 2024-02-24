@@ -13,7 +13,7 @@ router.get("/", usuarioCursoGet);
 router.post(
     "/", 
     [
-        check("correo","El estudiante es obligatorio").not().isEmpty(),
+        check("correo","El estudiante  es  obligatorio").not().isEmpty(),
         check("materia","El curso es obligatorio").not().isEmpty(),
         validarCampos,
     ], usuarioCursoPost); 

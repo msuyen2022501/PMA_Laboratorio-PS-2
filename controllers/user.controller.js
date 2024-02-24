@@ -57,7 +57,7 @@ const usuariosDelete = async (req, res) => {
     try {
         const usuario = await Usuario.findByIdAndUpdate(id, {estado: false}); 
         res.status(200).json({
-            msg: 'Usuario eliminado'
+            msg: 'El Usuario ha sido eliminado'
         });
     } catch (error) {
         console.error(error);

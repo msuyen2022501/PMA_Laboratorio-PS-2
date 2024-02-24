@@ -39,7 +39,7 @@ router.post(
     "/login",
     [
         check('correo', 'Este correo no sirve').isEmail(),
-        check('password', 'Password es necesaria').not().isEmpty(),
+        check('password', 'La Password es necesaria').not().isEmpty(),
         validarCampos,
     ],
     usuariosLogin);
