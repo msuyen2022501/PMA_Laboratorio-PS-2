@@ -45,7 +45,7 @@ const usuarioCursoPost = async (req, res) => {
     try {
         const estudiante = await Usuario.findOne({ correo });
         if (!estudiante) {
-            return res.status(400).json({ msg: 'El usuario no existe' });
+            return res.status(400).json({ msg: 'El usuario proporcionado no existe' });
         }
 
         let curso = await Curso1.findOne({ nombre: materia, estado: true });

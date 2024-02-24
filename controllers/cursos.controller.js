@@ -42,7 +42,7 @@ const cursosPut = async (req, res) => {
             const Maestro = await Usuario.findById(maestroId);
             if (!Maestro) {
                 return res.status(400).json({
-                    msg: 'El maestro asignado no existe'
+                    msg: 'El maestro que ha sido asignado no existe'
                 });
             }
             if (Maestro.role !== "TEACHER_ROLE") {
