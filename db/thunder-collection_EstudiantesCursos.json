@@ -1,0 +1,42 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "EstudiantesCursos",
+    "dateExported": "2024-02-24T22:23:32.606Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ef540a42-b717-41af-9625-e139fcb9d3d8",
+            "colId": "2e12d314-bef8-4eb0-b7d0-e9f96490e854",
+            "containerId": "",
+            "name": "AsgEstudiante",
+            "url": "http://localhost:5000/laboratorio-ps-2/estudianteCursos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-23T21:28:25.950Z",
+            "modified": "2024-02-24T20:51:06.596Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\":\"MarioSuyen@email.com\",\n  \"materia\":\"Practica Supervisadas\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "badcfbab-60a4-45cb-85b8-c4051bf76012",
+            "colId": "2e12d314-bef8-4eb0-b7d0-e9f96490e854",
+            "containerId": "",
+            "name": "getUsuariosCursos",
+            "url": "http://localhost:5000/laboratorio-ps-2/estudianteCursos",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-23T21:28:25.951Z",
+            "modified": "2024-02-23T21:28:25.951Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

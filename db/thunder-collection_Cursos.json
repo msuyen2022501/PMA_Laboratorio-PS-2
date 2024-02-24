@@ -1,0 +1,80 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Cursos",
+    "dateExported": "2024-02-24T22:23:36.654Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "19e1473a-e0da-4a46-88e3-e176253b1eff",
+            "colId": "243ba81c-c579-44b2-b332-9ce96abbd5f0",
+            "containerId": "",
+            "name": "cursosPost",
+            "url": "http://localhost:5000/laboratorio-ps-2/cursos",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-23T21:28:25.925Z",
+            "modified": "2024-02-24T20:44:26.383Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Programcion III\",\n  \"maestro\":\"MaestroBraulio@email.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e14325a2-dcc4-41be-9ed6-035bf87eafdb",
+            "colId": "243ba81c-c579-44b2-b332-9ce96abbd5f0",
+            "containerId": "",
+            "name": "cursosGet",
+            "url": "http://localhost:5000/laboratorio-ps-2/cursos",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-23T21:28:25.926Z",
+            "modified": "2024-02-23T21:28:25.926Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e19e69d9-b212-4c35-9bf8-19c4208ccf76",
+            "colId": "243ba81c-c579-44b2-b332-9ce96abbd5f0",
+            "containerId": "",
+            "name": "cursosPut",
+            "url": "http://localhost:5000/laboratorio-ps-2/cursos/65da5322113fbb2b70e40ed6",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-02-23T21:28:25.927Z",
+            "modified": "2024-02-24T20:36:34.910Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Fisica II\",\n  \"maestroId\":\"65d959f872f5b87f6a7a682c\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8856dcaa-9e36-4423-93f5-701ff6f3fde3",
+            "colId": "243ba81c-c579-44b2-b332-9ce96abbd5f0",
+            "containerId": "",
+            "name": "cursosDelete",
+            "url": "http://localhost:5000/laboratorio-ps-2/cursos/65da5372113fbb2b70e40ee8",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-02-23T21:28:25.928Z",
+            "modified": "2024-02-24T20:37:35.917Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"maestroId\": \"65d038a6fe936b0ab4ffbd2a\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

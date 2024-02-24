@@ -1,0 +1,94 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Usuarios",
+    "dateExported": "2024-02-24T22:23:27.326Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "27e82e22-b860-4617-ad09-d7af68f7e280",
+            "colId": "4b41bbd3-d941-45a2-b462-cc75858b551c",
+            "containerId": "",
+            "name": "usuariosPost",
+            "url": "http://localhost:5000/laboratorio-ps-2/usuarios",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-23T21:28:25.981Z",
+            "modified": "2024-02-24T20:43:01.927Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Lucciano2\",\n  \"correo\":\"Lucciano2@email.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "62be7d6d-5a52-4ab3-8aed-cd3aad42f6bf",
+            "colId": "4b41bbd3-d941-45a2-b462-cc75858b551c",
+            "containerId": "",
+            "name": "usuariosGet",
+            "url": "http://localhost:5000/laboratorio-ps-2/usuarios",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-23T21:28:25.982Z",
+            "modified": "2024-02-23T21:28:25.982Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dd508370-35ad-4ad4-a1fe-e1633815c022",
+            "colId": "4b41bbd3-d941-45a2-b462-cc75858b551c",
+            "containerId": "",
+            "name": "usuariosPut",
+            "url": "http://localhost:5000/laboratorio-ps-2/usuarios/65da5427113fbb2b70e40f17",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-02-23T21:28:25.983Z",
+            "modified": "2024-02-24T20:40:34.263Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"MarioSuyenGiron\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a96d4bbb-fc78-40eb-a59d-f7f09ffc3949",
+            "colId": "4b41bbd3-d941-45a2-b462-cc75858b551c",
+            "containerId": "",
+            "name": "usuarioDelete",
+            "url": "http://localhost:5000/laboratorio-ps-2/usuarios/65da545f113fbb2b70e40f20",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-02-23T21:28:25.984Z",
+            "modified": "2024-02-24T20:41:11.902Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "99002216-bc2d-4d8d-98a5-d8b15b915cf2",
+            "colId": "4b41bbd3-d941-45a2-b462-cc75858b551c",
+            "containerId": "",
+            "name": "usuarioLogin",
+            "url": "http://localhost:5000/laboratorio-ps-2/usuarios/login",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-02-23T21:28:25.985Z",
+            "modified": "2024-02-24T20:43:44.295Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"correo\":\"MarioSuyen@email.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
